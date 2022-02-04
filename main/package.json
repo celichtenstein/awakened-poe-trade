@@ -16,7 +16,7 @@
   },
   "main": "dist/main.js",
   "dependencies": {
-    "electron-overlay-window": "3.0.0-beta.1",
+    "electron-overlay-window": "hsource/electron-overlay-window#3.0.0-macos.2",
     "uiohook-napi": "1.3.x"
   },
   "devDependencies": {
