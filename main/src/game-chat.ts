@@ -13,7 +13,7 @@ const AUTO_CLEAR = [
 
 export function typeInChat (text: string, send: boolean) {
   restoreClipboard((clipboard) => {
-    const modifiers = process.platform === 'darwin' ? [Key.Cmd] : [Key.Ctrl]
+    const modifiers = process.platform === 'darwin' ? [Key.Meta] : [Key.Ctrl]
 
     if (text.startsWith(PLACEHOLDER_LAST)) {
       text = text.slice(`${PLACEHOLDER_LAST} `.length)
