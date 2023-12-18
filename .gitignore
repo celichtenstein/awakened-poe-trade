@@ -3,7 +3,7 @@ node_modules
 */dist/**
 
 # Large files
-.dmg
+*.dmg
 
 # local env files
 .env.local
